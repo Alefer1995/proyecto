@@ -1,0 +1,81 @@
+.navbar {
+  background: linear-gradient(to right, grey, black);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.nav-link:hover {
+  opacity: 0.5;
+  background: grey;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+.footercontact {
+  background: linear-gradient(to right, grey, black);
+  color: black;
+  font-weight: 600;
+  padding: 2rem;
+}
+.footermail {
+  text-decoration: none;
+}
+.footerbottom {
+  padding: 1rem 0;
+}
+.footerbottomcopyright {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+.footerbottomcopyrighta {
+  text-decoration: none;
+  color: grey;
+}
+.footerbottomcopyrighta:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.footer-contact {
+  background: linear-gradient(to right, grey, black);
+  color: black;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.footer-mail {
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+}
+
+.footer-bottom_copyright {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.footer-bottom_copyright a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-bottom_copyright a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
