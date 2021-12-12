@@ -1,11 +1,14 @@
 .navbar {
   background: linear-gradient(to right, grey, black);
 }
+.navbar .navbar-brand {
+  font-size: x-large;
+}
 
 header {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav-link {
@@ -24,7 +27,7 @@ header {
 .footer-contact {
   background: linear-gradient(to right, grey, black);
   color: black;
-  font-weight: 600;
+  font-size: large;
   padding: 2rem;
 }
 .footer-mail {
@@ -45,6 +48,12 @@ header {
 .footer-bottom_copyright a:hover {
   opacity: 0.5;
   text-decoration: underline;
+}
+
+#accordion {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

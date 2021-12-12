@@ -1,12 +1,19 @@
 .navbar {
     background: linear-gradient(to right, grey, black);
+
+    .navbar-brand {
+        font-size: x-large;
+    }
 }
+
 
 header {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
+
+
 
 .nav-link {
     text-decoration: none;
@@ -26,7 +33,7 @@ header {
     &-contact {
         background: linear-gradient(to right, grey, black);
         color: black;
-        font-weight: 600;
+        font-size: large;
         padding: 2rem;}
 
     &-mail {
@@ -51,3 +58,12 @@ header {
             }
         }
     }
+
+
+
+
+#accordion {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
